@@ -1,0 +1,103 @@
+.lo4-body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.lo4-container {
+  width: 24.2%;
+  height: 100%;
+  border: ;
+  float: left;
+  background-color: limegreen;
+  animation: pulse-3 1s infinite;
+}
+
+.lo4-container--box {
+  width:100%;
+  height: 40%;
+  background-color: white;
+  border: ;
+  animation: pulse-2 1.5s infinite;
+}
+.lo4-container2 {
+  width: 27%;
+  height: 100%;
+  border: ;
+  float:left;
+  background-color: blue;
+  animation: pulse 2s infinite;
+}
+
+.lo4-image-container {
+  width: 48%;
+  height: 98.5%;
+  float: right;
+  border: 5px solid white;
+  position: relative;
+}
+
+.lo4-image {
+  width: 100%;
+  height: 87%;
+  position: relative;
+}
+
+.lo4-image--2 {
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 1;
+}
+
+.lo4-image--3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.lo4-image--3:hover {
+  opacity: 1;
+}
+
+img {
+  width: 100%;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes pulse-2 {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+@keyframes pulse-3 {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: white;
+  }
+}
